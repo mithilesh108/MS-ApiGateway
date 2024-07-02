@@ -1,0 +1,10 @@
+create table USER_INFO(id int primary key, username varchar(20), password varchar(200), roles varchar(200));
+
+insert into USER_INFO values (1,"user","$2a$10$dI7MphbKgri91tpj8YU3i.3BoDJt6hmzdCZzJSdTjfbUkyuRUATiG","ROLE_USER"),
+(2,"admin","$2a$10$FdKEVorzc.NY9vnU33VQGudejOih7u9DceToTeJlqGFZdqgRveBnK","ROLE_ADMIN"),
+(3,"mk","$2a$10$VHfXbb44fBrLzvJGm0hmH.Mp1EMc/SvKxEi6IKRhXe66kY61YPRga","ROLE_ADMIN,ROLE_USER");
+
+ID  USERNAME     PASSWORD                                                        ROLES
+1	user	    $2a$10$dI7MphbKgri91tpj8YU3i.3BoDJt6hmzdCZzJSdTjfbUkyuRUATiG	ROLE_USER
+2	admin	    $2a$10$FdKEVorzc.NY9vnU33VQGudejOih7u9DceToTeJlqGFZdqgRveBnK	ROLE_ADMIN
+3	mk	        $2a$10$VHfXbb44fBrLzvJGm0hmH
